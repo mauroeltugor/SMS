@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/series.css" />
+    <title>Series</title>
+</head>
+<body>
+    <header>
+        <h1>XVIDEOS</h1>
+        <nav class="container_buscador">
+            <a href="#">Ver Series</a>
+            <a href="#">Ver Peliculas</a>
+
+            <form id="search-form" class="search-container">
+                <input
+                    type="text"
+                    id="search-input"
+                    class="search-input"
+                    placeholder="Buscar..."
+                />
+                <button type="submit" class="search-button" id="search-button">
+                    <img src="./styles/media/magnifying-glass.svg" alt="Buscar" />
+                </button>
+            </form>
+        </nav>
+    </header>
+
+    <div class="carousel">
+        <div class="carousel-category">
+            <h2>Romance</h2>
+            <div class="card-container" id="romance-carousel">
+                <div class="card" data-nombre="Wanderlust" data-descripcion="SERIE DE ROMANCE">
+                    <img src="./styles/media/Romance.jpg" alt="Wanderlust" />
+                </div>
+                <div class="card" data-nombre="Jane The Virgin" data-descripcion="SERIE DE ROMANCE">
+                    <img src="./styles/media/Romance1jpg.jpg" alt="Jane The Virgin" />
+                </div>
+                <div class="card" data-nombre="Crazy Ex Girl Friend" data-descripcion="SERIE DE ROMANCE">
+                  <img src="./styles/media/Romance2.jpg" alt="Crazy Ex Girl Friend" />
+              </div>
+              <div class="card" data-nombre="Easy" data-descripcion="SERIE DE ROMANCE">
+                <img src="./styles/media/Romance4.jpeg" alt="Easy" />
+            </div>
+            <div class="card" data-nombre="Love" data-descripcion="SERIE DE ROMANCE">
+              <img src="./styles/media/Romance5.jpg" alt="Love" />
+            </div>
+            </div>
+        </div>
+
+        <div class="carousel-category">
+            <h2>Terror</h2>
+            <div class="card-container" id="terror-carousel">
+                
+                <div class="card" data-nombre="stories" data-descripcion="SERIE DE TERROR">
+                    <img src="./styles/media/Terror1.jpg" alt="stories" />
+                </div>
+                <div class="card" data-nombre="TheExorcist" data-descripcion="SERIE DE TERROR">
+                    <img src="./styles/media/Terror2.jpg" alt="The Exorcist" />
+                </div>
+                <div class="card" data-nombre="Hannibal" data-descripcion="SERIE DE TERROR">
+                  <img src="./styles/media/Terror3.webp" alt="Hannibal" />
+              </div>
+              <div class="card" data-nombre="30 Monedas" data-descripcion="SERIE DE TERROR">
+                <img src="./styles/media/terror4.jpg" alt="30 Monedas" />
+            </div>
+            <div class="card" data-nombre="Slasher Ripper" data-descripcion="SERIE DE TERROR">
+              <img src="./styles/media/Terror5.jpg" alt="Slasher Ripper" />
+          </div>
+            </div>
+        </div>
+
+        <div class="carousel-category">
+            <h2>Comedia</h2>
+            <div class="card-container" id="comedy-carousel">
+                
+                <div class="card" data-nombre="Paquita Salas" data-descripcion="SERIE DE COMEDIA">
+                    <img src="./styles/media/Comedia1.jpg" alt="Paquita Salas" />
+                </div>
+                <div class="card" data-nombre="Seinfeld" data-descripcion="SERIE DE COMEDIA">
+                    <img src="./styles/media/Comedia2.jpg" alt="Seinfeld" />
+                </div>
+                <div class="card" data-nombre="Chicas De Oro" data-descripcion="SERIE DE COMEDIA">
+                  <img src="./styles/media/Comedia3.jpeg" alt="Chicas De Oro" />
+              </div>
+              <div class="card" data-nombre="Flight Of The Conchords" data-descripcion="SERIE DE COMEDIA">
+                <img src="./styles/media/Comedia4.jpg" alt="Flight Of The Conchord" />
+            </div>
+            <div class="card" data-nombre="Fleabag" data-descripcion="SERIE DE COMEDIA">
+              <img src="./styles/media/comedia5.jpg" alt="Fleabag" />
+          </div>
+            </div>
+        </div>
+
+        <div class="trailer">
+          <iframe width="560" height="315" src="" frameborder="0" allowfullscreen muted></iframe>
+      </div>
+
+        <div class="serie-details" id="serie-details">
+          <div class="details-container">
+              <h3 class="serie-title"></h3>
+              <p class="serie-description"></p>
+          </div>
+      </div>
+
+      
+
+    
+    
+    <script src="./carousel.js"></script>
+</body>
+</html>
+
