@@ -144,4 +144,95 @@ header .container_buscador{
   color: #fff;
 }
 
+/* responsive */
 
+@media (max-width: 480px) {
+  header {
+    text-align: center;
+    flex-direction: column;
+  }
+  
+  .card-container{
+    gap: 0;
+  }
+  .carousel-category{
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .card img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .card {
+    width: calc(50% - 20px);
+    margin: 10px;
+    
+  }
+
+  .carousel-category h2 {
+    font-size: 24px;
+    margin: 10px;
+  }
+
+  .serie-details .serie-title {
+    font-size: 20px;
+    margin: 5px;
+  }
+
+  .serie-details .serie-description {
+    font-size: 16px;
+    margin: 5px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  header{
+    flex-direction: column;
+  }
+
+  .card {
+    width: calc(33.33% - 20px);
+  }
+}
+
+
+@media (max-width: 1024px) {
+  .carousel-category h2 {
+    font-size: 28px;
+    margin: 15px;
+  }
+
+  .serie-details .serie-title {
+    font-size: 24px;
+    margin: 10px;
+  }
+
+  .serie-details .serie-description {
+    font-size: 18px;
+    margin: 10px;
+  }
+}
+
+
+@media (max-width: 1200px) {
+  .carousel-category h2 {
+    font-size: 32px;
+    margin: 20px;
+  }
+
+  .serie-details .serie-title {
+    font-size: 28px;
+    margin: 15px;
+  }
+
+  .serie-details .serie-description {
+    font-size: 20px;
+    margin: 15px;
+  }
+}
