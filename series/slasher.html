@@ -1,70 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/series-info.css">
-    <title>Slasher</title>
-</head>
-<body>
-    <header>
-        <h1>SMS</h1>
-        <nav class="container_buscador">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../styles/series-info.css" />
+		<link
+			rel="Website Icon"
+			type="png"
+			href="../../styles/media/netflixx.png"
+		/>
+		<title>Slasher</title>
+	</head>
+	<body>
+		<header>
+			<h1>SMS</h1>
+			<nav class="container_buscador">
+				<a href="../index.html">Ver Series</a>
+				<a href="../indexmovies.html">Ver Peliculas</a>
 
-            <a href="#">Ver Series</a>
-            <a href="#">Ver Peliculas</a>
+				<form id="search-form" class="search-container">
+					<input
+						type="text"
+						id="search-input"
+						class="search-input"
+						placeholder="Buscar..."
+					/>
+					<button type="submit" class="search-button" id="search-button">
+						<img src="../styles/media/magnifying-glass.svg" alt="Buscar" />
+					</button>
+				</form>
+			</nav>
+		</header>
+		<main class="main">
+			<div class="container">
+				<article class="info">
+					<article class="left">
+						<section class="cover">
+							<img
+								src="../styles/media/Terror5.jpg"
+								alt=""
+								srcset=""
+								class="img"
+							/>
+						</section>
 
-            <form id="search-form" class="search-container">
-                <input type="text" id="search-input" class="search-input" placeholder="Buscar...">
-                <button type="submit" class="search-button" id="search-button">
-                  <img src="../styles/media/magnifying-glass.svg" alt="Buscar">
-                </button>
-              </form>
-        </nav>
-    </header>
-    <main class="main">
-        <div class="container">
-            <article class="info">
-                <article class="left">
-                    <section class="cover">
-                        <img src="../styles/media/Terror5.jpg" alt="" srcset="" class="img">
-                    </section>
-                    
-                    
-                    <section class="synapsis">
-                        <p>
-                            Miniserie de TV (2016). Años después del atroz asesinato de sus padres, una mujer regresa a su ciudad natal. Desafortunadamente, un nuevo asesino anda suelto recreando crímenes del pasado. (FILMAFFINITY)
-                        </p>
-                    </section>
+						<section class="synapsis">
+							<p>
+								Miniserie de TV (2016). Años después del atroz asesinato de sus
+								padres, una mujer regresa a su ciudad natal. Desafortunadamente,
+								un nuevo asesino anda suelto recreando crímenes del pasado.
+								(FILMAFFINITY)
+							</p>
+						</section>
 
-                    <section class="cast">
-                        <p>
-                           <span class="span">Cast: </span> En esta antología de terror, unos asesinos en serie recrean masacres a su paso mientras sus próximas víctimas luchan por mantenerse con vida. Ve todo lo que quieras.
-
-                        </p>
-                    </section>
-                </article>
-                <article class="right">
-                    <article class="trailer">
-                        <iframe src="https://www.youtube.com/watch?v=ZIqX4A-XT-Q&ab_channel=FilmSelectEspa%C3%B1ol" frameborder="0" allowfullscreen class="video"></iframe>
-                    </article>
-                    <section class="title">
-                        <h3>Slasher</h3>
-                    </section>
-                    <ul class="list">
-                        <li class="li"><span class="span">Clasificacion:</span> Todo publico.</li>
-                        <li class="li"><span class="span">Genero: </span>Terror</li>
-                        <li class="li"><span class="span">Año: </span>2016</li>
-                    </ul>
-                </article>
-            </article>
-        </div>
-
-    </main>
-    <footer class="footer">
-        <section class="copy">
-            &copy; 2023 - Todos los derechos reservados / Streaming Movies and Series INC
-        </section>
-    </footer>
-</body>
+						<section class="cast">
+							<p>
+								<span class="span">Cast:</span>
+								En esta antología de terror, unos asesinos en serie recrean
+								masacres a su paso mientras sus próximas víctimas luchan por
+								mantenerse con vida. Ve todo lo que quieras.
+							</p>
+						</section>
+					</article>
+					<article class="right">
+						<article class="trailer">
+							<iframe
+								src="https://www.youtube.com/embed/ZIqX4A-XT-Q"
+								frameborder="0"
+								allowfullscreen
+								class="video"
+							></iframe>
+						</article>
+						<section class="title">
+							<h3>Slasher</h3>
+						</section>
+						<ul class="list">
+							<li class="li">
+								<span class="span">Clasificacion:</span>
+								Todo publico.
+							</li>
+							<li class="li">
+								<span class="span">Genero:</span>
+								Terror
+							</li>
+							<li class="li">
+								<span class="span">Año:</span>
+								2016
+							</li>
+						</ul>
+					</article>
+				</article>
+			</div>
+		</main>
+		<footer class="footer">
+			<section class="copy">
+				&copy; 2023 - Todos los derechos reservados / Streaming Movies and
+				Series INC
+			</section>
+		</footer>
+	</body>
 </html>

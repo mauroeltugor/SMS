@@ -1,70 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/series-info.css">
-    <title>Fleabag</title>
-</head>
-<body>
-    <header>
-        <h1>SMS</h1>
-        <nav class="container_buscador">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../styles/series-info.css" />
+		<link
+			rel="Website Icon"
+			type="png"
+			href="../../styles/media/netflixx.png"
+		/>
+		<title>Fleabag</title>
+	</head>
+	<body>
+		<header>
+			<h1>SMS</h1>
+			<nav class="container_buscador">
+				<a href="../index.html">Ver Series</a>
+				<a href="../indexmovies.html">Ver Peliculas</a>
 
-            <a href="#">Ver Series</a>
-            <a href="#">Ver Peliculas</a>
+				<form id="search-form" class="search-container">
+					<input
+						type="text"
+						id="search-input"
+						class="search-input"
+						placeholder="Buscar..."
+					/>
+					<button type="submit" class="search-button" id="search-button">
+						<img src="../styles/media/magnifying-glass.svg" alt="Buscar" />
+					</button>
+				</form>
+			</nav>
+		</header>
+		<main class="main">
+			<div class="container">
+				<article class="info">
+					<article class="left">
+						<section class="cover">
+							<img
+								src="../styles/media/comedia5.jpg"
+								alt=""
+								srcset=""
+								class="img"
+							/>
+						</section>
 
-            <form id="search-form" class="search-container">
-                <input type="text" id="search-input" class="search-input" placeholder="Buscar...">
-                <button type="submit" class="search-button" id="search-button">
-                  <img src="../styles/media/magnifying-glass.svg" alt="Buscar">
-                </button>
-              </form>
-        </nav>
-    </header>
-    <main class="main">
-        <div class="container">
-            <article class="info">
-                <article class="left">
-                    <section class="cover">
-                        <img src="../styles/media/comedia5.jpg" alt="" srcset="" class="img">
-                    </section>
-                    
-                    
-                    <section class="synapsis">
-                        <p>
-                            La serie se caracteriza porque la protagonista rompe habitualmente la cuarta pared. 
-                        </p>
-                    </section>
+						<section class="synapsis">
+							<p>
+								La serie se caracteriza porque la protagonista rompe
+								habitualmente la cuarta pared.
+							</p>
+						</section>
 
-                    <section class="cast">
-                        <p>
-                           <span class="span">Cast: </span> Fleabag acaba de cumplir 30 años, proviene de una familia disfuncional y su negocio está a punto de quebrar. Por si fuera poco, la joven transita en Londres por una potente crisis existencial tras perder a su mejor amiga.
-
-                        </p>
-                    </section>
-                </article>
-                <article class="right">
-                    <article class="trailer">
-                        <iframe src="https://www.youtube.com/watch?v=L3iqdpYoZNU&ab_channel=AmazonPrimeVideoEspa%C3%B1a" frameborder="0" allowfullscreen class="video"></iframe>
-                    </article>
-                    <section class="title">
-                        <h3>Fleabag</h3>
-                    </section>
-                    <ul class="list">
-                        <li class="li"><span class="span">Clasificacion:</span> Todo publico.</li>
-                        <li class="li"><span class="span">Genero: </span>Comedia</li>
-                        <li class="li"><span class="span">Año: </span>2016</li>
-                    </ul>
-                </article>
-            </article>
-        </div>
-
-    </main>
-    <footer class="footer">
-        <section class="copy">
-            &copy; 2023 - Todos los derechos reservados / Streaming Movies and Series INC
-        </section>
-    </footer>
-</body>
-</html> 
+						<section class="cast">
+							<p>
+								<span class="span">Cast:</span>
+								Fleabag acaba de cumplir 30 años, proviene de una familia
+								disfuncional y su negocio está a punto de quebrar. Por si fuera
+								poco, la joven transita en Londres por una potente crisis
+								existencial tras perder a su mejor amiga.
+							</p>
+						</section>
+					</article>
+					<article class="right">
+						<article class="trailer">
+							<iframe
+								src="https://www.youtube.com/embed/L3iqdpYoZNU"
+								frameborder="0"
+								allowfullscreen
+								class="video"
+							></iframe>
+						</article>
+						<section class="title">
+							<h3>Fleabag</h3>
+						</section>
+						<ul class="list">
+							<li class="li">
+								<span class="span">Clasificacion:</span>
+								Todo publico.
+							</li>
+							<li class="li">
+								<span class="span">Genero:</span>
+								Comedia
+							</li>
+							<li class="li">
+								<span class="span">Año:</span>
+								2016
+							</li>
+						</ul>
+					</article>
+				</article>
+			</div>
+		</main>
+		<footer class="footer">
+			<section class="copy">
+				&copy; 2023 - Todos los derechos reservados / Streaming Movies and
+				Series INC
+			</section>
+		</footer>
+	</body>
+</html>
