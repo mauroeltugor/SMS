@@ -190,7 +190,267 @@ header .container_buscador{
     .copy{
       padding: 1rem;
     }
-
-    /* media quaries */
-
     
+      /*---------RESPONSIVE------------*/
+
+      @media screen and (max-width: 480px){
+        header{
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+        }
+
+        header .container_buscador{
+          display: flex;
+          justify-content: space-between;
+          gap: 30px;
+          align-items: center;
+      }
+
+        .container{
+          width: 100%;
+        }
+
+        .info{
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          align-items: center;
+          gap: 30px;
+        }
+
+        .right{
+          width: 100%;
+          gap: 30px;
+        }
+
+        .list{
+          width: 70%;
+        }
+
+        .left{
+          width: 100%;
+        }
+
+        .img{
+          object-fit: fill;
+        }
+
+        .cover{
+          height: 380px;
+          width: 336px;
+      }
+
+      .trailer{
+        width: 336px;
+      }
+
+        .footer{
+          text-align: center;
+        }
+
+        
+      }
+
+      @media screen and (min-width: 481px) and (max-width: 768px){
+        header{
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+        }
+
+        header .container_buscador{
+          display: flex;
+          justify-content: space-evenly;
+          gap: 30px;
+          align-items: center;
+      }
+
+        .container{
+          width: 100%;
+        }
+
+        .info{
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          align-items: center;
+          gap: 30px;
+        }
+
+        .right{
+          width: 100%;
+          gap: 30px;
+        }
+        .trailer{
+          width: 70%;
+          text-align: center;
+        }
+
+        .list{
+          width: 70%;
+        }
+
+        .left{
+          width: 100%;
+        }
+
+        .img{
+          object-fit: fill;
+        }
+
+        .cover{
+          height: 380px;
+          width: 336px;
+      }
+
+      .trailer{
+        width: 336px;
+      }
+       
+
+        .footer{
+          text-align: center;
+        }
+
+        
+      }
+
+      @media screen and (min-width: 769px) and (max-width: 1024px){
+        header{
+          display: flex;
+          flex-direction: row;
+          text-align: center;
+        }
+
+        header .container_buscador{
+          display: flex;
+          justify-content: space-evenly;
+          gap: 30px;
+          align-items: center;
+      }
+
+        .container{
+          width: 90%;
+        }
+
+        .info{
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          align-items: center;
+          gap: 30px;
+        }
+
+        .right{
+          width: 100%;
+          gap: 30px;
+        }
+        .trailer{
+          width: 70%;
+          text-align: center;
+        }
+
+        .list{
+          width: 70%;
+        }
+
+        .left{
+          width: 100%;
+        }
+
+        .img{
+          object-fit: fill;
+        }
+
+        .cover{
+          height: 380px;
+          width: 336px;
+      }
+
+      .trailer{
+        width: 336px;
+      }
+       
+
+        .footer{
+          text-align: center;
+        }
+
+        
+      }
+
+      @media screen and (min-width: 1025px) and (max-width: 1200px){
+        header{
+          display: flex;
+          flex-direction: row;
+          text-align: center;
+        }
+
+        header .container_buscador{
+          display: flex;
+          justify-content: space-evenly;
+          gap: 30px;
+          align-items: center;
+      }
+
+      .main{
+        height: 100%;
+      }
+
+        .container{
+          width: 90%;
+          
+        }
+
+        .info{
+          display: flex;
+          flex-direction: row;
+          width: 100%;
+          align-items: center;
+          gap: 30px;
+        }
+
+        .right{
+          width: 50%;
+          gap: 30px;
+        }
+        .trailer{
+          width: 70%;
+          text-align: center;
+        }
+
+        .list{
+          width: 70%;
+        }
+
+        .left{
+          width: 50%;
+        }
+
+        .img{
+          object-fit: fill;
+        }
+
+        .cover{
+          height: 380px;
+          width: 336px;
+      }
+
+      .trailer{
+        width: 336px;
+      }
+       
+
+        .footer{
+          text-align: center;
+        }
+
+        
+      }
+
+      
+
+
+
+     
