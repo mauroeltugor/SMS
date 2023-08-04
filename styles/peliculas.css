@@ -166,6 +166,7 @@ header .container_buscador{
   .card img {
     width: 100%;
     height: 100%;
+    object-fit: fill;
   }
 
   .card {
@@ -188,7 +189,34 @@ header .container_buscador{
     font-size: 16px;
     margin: 5px;
   }
+
+  .card-container {
+    overflow-x: scroll; 
+    scroll-snap-type: x mandatory; 
+  }
+
+  .card-container {
+    flex-direction: row;
+    justify-content: flex-start; 
+    gap: 0; 
+    padding: 10px; 
+  }
+
+  .card {
+    flex: 0 0 calc(50% - 20px);
+    margin: 10px;
+    scroll-snap-align: start; 
+  }
+
+  .serie-details {
+    position: static; 
+    display: block; 
+    background-color: rgba(54, 54, 54, 0.993);
+    margin-top: 10px;
+  }
+
 }
+
 
 
 @media (max-width: 768px) {
@@ -198,6 +226,36 @@ header .container_buscador{
 
   .card {
     width: calc(33.33% - 20px);
+  }
+  .card-container {
+    overflow-x: scroll; 
+    scroll-snap-type: x mandatory; 
+  }
+
+  .card-container {
+    flex-direction: row;
+    justify-content: flex-start; 
+    gap: 0; 
+    padding: 10px; 
+  }
+
+  .card {
+    flex: 0 0 calc(50% - 20px);
+    margin: 10px;
+    scroll-snap-align: start; 
+  }
+
+  .serie-details {
+    position: static; 
+    display: block; 
+    background-color: rgba(54, 54, 54, 0.993);
+    margin-top: 10px;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
   }
 }
 
