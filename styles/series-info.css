@@ -83,7 +83,7 @@ header .container_buscador{
   justify-content: center;
   align-items: center;
   background-color: rgba(34, 34, 34, 0.993);
-  height: 100vh;
+  min-height: 100vh;
   
 }
 
@@ -214,6 +214,13 @@ header .container_buscador{
         gap: 30px;
         align-items: center;
     }
+    
+    header a {
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+  }
 
       .container{
         width: 100%;
@@ -266,6 +273,13 @@ header .container_buscador{
         flex-direction: column;
         text-align: center;
       }
+
+      header a {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
 
       header .container_buscador{
         display: flex;

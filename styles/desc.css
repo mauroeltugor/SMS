@@ -21,7 +21,6 @@ header a{
   display: flex;
   align-items: center;
 }
-
 header h1{
     display: flex;
     justify-content: center;
@@ -206,7 +205,15 @@ header .container_buscador{
           display: flex;
           flex-direction: column;
           text-align: center;
+          height: 150px;
         }
+
+        header a {
+          text-decoration: none;
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+      }
 
         header .container_buscador{
           display: flex;
@@ -265,7 +272,15 @@ header .container_buscador{
           display: flex;
           flex-direction: column;
           text-align: center;
+          height: 150px;
         }
+
+        header a {
+          text-decoration: none;
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+      }
 
         header .container_buscador{
           display: flex;
