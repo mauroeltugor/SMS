@@ -23,7 +23,7 @@ searchForm.addEventListener("submit", function (event) {
                 image.style.objectFit = "cover";
 
                 const title = image.alt;
-                const description = card.getAttribute("data-descripcion"); // Obtener la descripción de la tarjeta
+                const description = card.getAttribute("data-descripcion");
 
                 serieTitle.textContent = title;
                 serieDescription.textContent = description;
@@ -40,8 +40,24 @@ searchForm.addEventListener("submit", function (event) {
         });
     });
 
+    // Mostrar u ocultar el mensaje y los h2 según si se encontraron series o películas
+    const noResultMessage = document.getElementById("txt-no-result");
+    const carouselHeadings = document.querySelectorAll(".carousel-category h2");
+
     if (!seriesFound) {
+        noResultMessage.style.display = "block";
         serieDetails.style.display = "none";
+
+        carouselHeadings.forEach((heading) => {
+            heading.style.display = "none";
+        });
+    } else {
+        noResultMessage.style.display = "none";
+        serieDetails.style.display = "block"; // Asegurarse de mostrar los detalles si se encuentran resultados
+
+        carouselHeadings.forEach((heading) => {
+            heading.style.display = "block";
+        });
     }
 });
 
@@ -56,8 +72,18 @@ document.getElementById("search-input").addEventListener("input", function () {
             });
         });
         serieDetails.style.display = "none";
+
+        const noResultMessage = document.getElementById("txt-no-result");
+        const carouselHeadings = document.querySelectorAll(".carousel-category h2");
+
+        noResultMessage.style.display = "none";
+        carouselHeadings.forEach((heading) => {
+            heading.style.display = "block";
+        });
     }
 });
+
+
 
 
 
